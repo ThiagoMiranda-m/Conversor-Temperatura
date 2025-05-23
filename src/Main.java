@@ -10,9 +10,8 @@ public class Main {
         System.out.print("1.Celsius \n2.Fahrenheit \n3.Kelvin\n");
 
         int escolha = scan.nextInt();
-        String escolhaString = String.valueOf(escolha);
 
-        if(escolhaString.length() > 1 || escolha < 1 || escolha > 3) {
+        if(escolha < 1 || escolha > 3) {
             System.out.println("Escolha incopatível, tente novamente.");
         }
 
@@ -25,9 +24,8 @@ public class Main {
                 System.out.print("1.Fahrenheit\n2.Kelvin\n");
 
                 int escolha2 = scan.nextInt();
-                String escolhaString2 = String.valueOf(escolha2);
 
-                if(escolhaString2.length() > 1 || escolha2 < 1 || escolha2 > 2) {
+                if(escolha2 < 1 || escolha2 > 2) {
                     System.out.println("Escolha incopatível, tente novamente.");
                 }
                 switch (escolha2){
@@ -48,9 +46,8 @@ public class Main {
                 System.out.print("1.Celsius\n2.Kelvin\n");
 
                 escolha2 = scan.nextInt();
-                escolhaString2 = String.valueOf(escolha2);
 
-                if(escolhaString2.length() > 1 || escolha2 < 1 || escolha2 > 2) {
+                if(escolha2 < 1 || escolha2 > 2) {
                     System.out.println("Escolha incopatível, tente novamente.");
                 }
                 switch (escolha2){
@@ -71,9 +68,8 @@ public class Main {
                 System.out.print("1.Celsius\n2.Fahrenheit\n");
 
                 escolha2 = scan.nextInt();
-                escolhaString2 = String.valueOf(escolha2);
 
-                if(escolhaString2.length() > 1 || escolha2 < 1 || escolha2 > 2) {
+                if(escolha2 < 1 || escolha2 > 2) {
                     System.out.println("Escolha incopatível, tente novamente.");
                 }
                 switch (escolha2){
